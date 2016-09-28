@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wifi Leds</string>
+    <string name="edit_cols">Cols</string>
+    <string name="edit_rows">Rows</string>
+    <string name="edit_ip">IP</string>
+    <string name="send">Send</string>
+    <string name="browse">Browse</string>
+    <string name="img_selected">Image:</string>
+</resources>

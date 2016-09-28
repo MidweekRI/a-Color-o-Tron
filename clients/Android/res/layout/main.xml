@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <EditText android:id="@+id/edit_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/edit_ip" /> 
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText android:id="@+id/edit_cols"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:hint="@string/edit_cols" /> 
+        <EditText android:id="@+id/edit_rows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:hint="@string/edit_rows" /> 
+    </LinearLayout>
+    
+    <ImageView android:id="@+id/edit_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button android:id="@+id/browse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="browseImage"
+            android:hint="@string/browse" /> 
+        <Button android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sendImage"
+            android:hint="@string/send" /> 
+    </LinearLayout>
+</LinearLayout>
+
+
